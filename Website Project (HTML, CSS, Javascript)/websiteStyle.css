@@ -1,0 +1,353 @@
+/* Changes font and background color for entire website*/
+body {       
+    padding:0;
+    margin:0;                 
+    font-family: "verdana";
+    background: linear-gradient(to bottom,#185a9d,#0a0005)
+
+}
+/* h element fonts changed*/
+h1, h2, h3 {
+font-family: "calibri";
+
+}
+#h3feat h3{ 
+  background-color:rgba(208, 34, 63, 0.922);
+  display: inline-block;
+  color: white;
+  position:relative;
+  left: 235px;
+  border:3px solid rgba(208, 34, 63, 0.922);
+  border-radius:10px;
+  font-size: 22px;
+  bottom:-10px;
+}
+/* This starts the Gallery divs*/
+.wrapper img {
+  max-width: 500px;
+  float:left;
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  margin-right: 15px;
+}
+.wrapper {
+  margin: 150px auto;
+  display: flex;
+  position:relative;
+  top:-100px;
+
+}
+.info {
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  background:linear-gradient(to bottom right,#010101,#1768cc);
+  color:#f7f1f1
+}
+.info p {
+  font-size: 18px;
+
+}
+.info h1{
+  font-size:20;
+  font-family:Arial;
+}
+/* -------------*/
+.wrapper2 img {
+  max-width: 500px;
+  float:left;
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  margin-right: 15px;
+}
+.wrapper2 {
+  margin: 150px auto;
+  display: flex;
+  position:relative;
+  top:-200px;
+}
+.info2 {
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  background:linear-gradient(to bottom right,#010101,#1768cc);
+  color:#f7f1f1
+}
+.info2 p {
+  font-size: 18px;
+
+}
+.info2 h1{
+  font-size:20;
+  font-family:Arial;
+}
+/* -------------*/
+.wrapper3 img {
+  max-width: 500px;
+  float:left;
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  margin-right: 15px;
+}
+.wrapper3 {
+  margin: 150px auto;
+  display: flex;
+  position:relative;
+  top:-300px;
+}
+.info3 {
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  background:linear-gradient(to bottom right,#010101,#1768cc);
+  color:#f7f1f1
+}
+.info3 p {
+  font-size: 18px;
+
+}
+.info3 h1{
+  font-size:20;
+  font-family:Arial;
+  /* -------------*/
+}
+.wrapper4 img {
+  max-width: 500px;
+  float:left;
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  margin-right: 15px;
+}
+.wrapper4 {
+  margin: 150px auto;
+  display: flex;
+  position:relative;
+  top:-400px;
+}
+.info4 {
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+  background:linear-gradient(to bottom right,#010101,#1768cc);
+  color:#f7f1f1
+}
+.info4 p {
+  font-size: 18px;
+
+}
+.info4 h1{
+  font-size:20;
+  font-family:Arial;
+}
+/* End of Gallery divs*/
+
+/* paragraph div is styled*/
+#paragraph {
+  background:linear-gradient(rgb(152, 201, 241),#185a9d);
+  text-align:center;
+  position:relative;
+  top: -16.8px;
+  height:50px;
+  color:black;
+}
+#paragraph p{
+  position:relative;
+  top: 5px;
+  font-size: 17px;
+}
+/* div height changed*/
+div {
+  line-height: 20px; 
+
+}
+/* The website logo styled below*/
+.logo{
+  line-height: 73%;
+}
+.logo img{
+  position:relative;
+  left:-587px;
+  border-radius:50%;
+  top:-0px;
+}
+.logo p {
+  position:relative;
+  left:-432px;
+  top:-84px;
+  font-family:"Arial";
+  font-size: 24px;
+  color:white;
+  }
+/* Header elements are positioned/styled*/
+header { 
+  text-align: center;
+  font-size: 32px;
+  font-family: "calibri";
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  background-color:black;
+  color:white;
+  }
+header h1{
+  position:relative;
+  top: -19px;
+  }
+/* Footer positioned and styled*/
+footer
+{ bottom: 0px;
+  background-color:rgb(152, 201, 241);
+  height: 30px;
+  text-align:center;
+  border-radius:20%;
+  border: solid 1px rgb(152, 201, 241);
+
+}
+/* divs representing nav bar are positioned/styled below*/
+div.sidebar{
+  width:100%;
+  height:50px;
+  text-align:center;
+  background:linear-gradient(black,rgb(152, 201, 241));
+}
+.button {
+  background-color:rgba(208, 34, 63, 0.922);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  cursor:pointer;
+}
+.button:hover {
+  background-color: #ffffff;
+  color: rgba(208, 34, 63, 0.922);
+
+}
+#slide {
+  border:3px solid rgb(152, 201, 241);
+  border-radius:10px;
+}
+legend {
+  font-size: 1.25em;
+  padding: 0 .25em;
+}
+/* Beginning of form divs*/
+form {
+  font-family: "Calibri";
+  font-size: 13pt;
+  margin: 2em 0;
+  padding:1em 2em;
+  border:solid 5px black;
+  border-radius:6px;
+  width:600px;
+  background-color:rgb(152, 201, 241);
+  position: relative;
+  top:-25px;
+} 
+#addys{
+  display:flex;
+  justify-content: center;
+}
+label {
+  display: block;
+  margin-top:1em;
+}
+.check label {
+  margin-top: 0;
+}
+input {
+  padding: .5em;
+  border: solid 1px grey;
+  border-radius:6px;
+
+}
+textarea {
+  min-height: 8em;
+  min-width: 50px;;
+  padding: .5em;
+  border: solid 1px grey;
+  border-radius:6px;
+}
+input[type ="checkbox"] + label {
+  display:inline-block;
+  padding-top: 0;
+  margin-top: 0;
+}
+input[type="submit"] {
+  padding: .5em 1em;
+  border-radius: 6px;
+  background-color: rgba(208, 34, 63, 0.922);
+  border: solid 1px rgba(208, 34, 63, 0.922);
+  color:#ffffff;
+
+} /* End of form divs*/
+
+/* Table divs are positioned/styled */
+table, th, td {
+  border: 1px solid;
+  text-align: center;
+}
+
+table{
+  background-color:rgb(152, 201, 241);
+  border: 3px solid black;
+  border-radius: 6px;
+  position: relative;
+
+}
+table img{
+  border: 3px solid rgba(208, 34, 63, 0.922);
+  border-radius: 6px;
+}
+
+/* Overview divs positioned/styled */
+#mininfo {
+  background:linear-gradient(to bottom right,#010101,#1768cc);
+  border: 3px solid black;
+  border-radius: 6px;
+  width:100%;
+  text-align:center;
+  color:white;
+}
+#mininfo img {
+  border: 3px solid rgba(208, 34, 63, 0.922);
+  border-radius: 6px;
+  position:relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#overview h3 {
+  background-color:rgba(208, 34, 63, 0.922);
+  text-align: center;
+  color: white;
+  position:relative;
+  border:3px solid rgba(208, 34, 63, 0.922);
+  border-radius:10px;
+  font-size: 22px;
+  
+}
+
+/* Link styling */
+a{
+  color:yellow;
+}
+a:hover {
+  color: #bd0c61;
+}
+a:active {
+  color: yellow;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+footer a{
+  color:#bd0c61;
+}

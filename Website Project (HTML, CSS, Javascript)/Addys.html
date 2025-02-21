@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+   <link rel="stylesheet" type ="text/css" href ="websiteStyle.css"> <!-- CSS stylesheet link-->
+   <script defer src = "websiteScript.js"></script> <!--Javascript styesheet link-->
+
+   <header> <!--Header-->
+      <div class = "logo">
+         <img src="Pictures2/Clone trooper logo.jpg" alt="" height = 65px width = 65px> <!-- Adds logo in header-->
+         <p><em>Levi's Lego Emporium</em><br><strong>|Add Your Set|</strong></p></p>
+         </div>
+   </header>
+
+   <div class="sidebar"> <!-- My navigation bar-->
+      <a class="button" href="index.html"><strong>Home</strong></a>
+      <a class="button" href="Gallery.html"><strong>Gallery</strong></a>
+      <a class="button" href="Minifigures.html"><strong>Minifigures</strong></a>
+      <a class="button" href="Addys.html"><strong>Add Your Set</strong></a>
+      </div>
+      <div id ="paragraph">
+         <p>Send in your set information!</p> <!-- P element that runs under the nav bar-->
+      </div>
+<div id="addys"> 
+<form method="GET">
+   <legend><strong>Enter Set Details Below</strong></legend> <!-- Beginning of a form-->
+    
+       <label for="setName">Name of set:</label>
+       <textarea id="set" name="set" placeholder="Name of Set" rows="2" cols="20"></textarea>
+    
+       <label for="releaseDate">Release date:</label>
+       <input type="text" id="release" name="release" placeholder="Release Date">
+
+      <label for="miniFigures">Minifigures included in the set:</label>
+      <input type="text" id="mini" name="mini" placeholder="Total Figures">
+    <p>
+      <div class="check">
+         <input type="checkbox" id="starwars" name="starwars">
+      <label for="isStarwars">Check if Set is Discontinued</label>
+      </div>
+   </p>
+    <p> Attach photo of your set here</p>
+      <input type="file" accept="image/jpeg, image/png, image/jpg">
+      <div id ="display_image"></div>
+   
+       <input type="submit" value="Submit">
+         </form>
+      </div>
+         <footer><strong>Be informed about lore and Starwars <a href="Minifigures.html">here</a></strong></footer>
+      </body>
+ </html>
+ 

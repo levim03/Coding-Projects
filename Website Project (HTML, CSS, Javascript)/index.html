@@ -1,0 +1,43 @@
+<!-- Author: Levi McRea
+     Date: 4/22/2023
+     Purpose: My website that displays rare Clone wars LEGO sets (Final CSC 220 project)
+    -->
+    <!DOCTYPE html>
+<html lang="en">
+    <meta charset = "UTF-8">
+    
+    <title>Levi's Lego Emporium</title>  <!-- Title of my website-->
+            
+    <link rel="icon" href = "Pictures2/Clone trooper logo.jpg">  <!-- Link to website icon in browser-->
+    <body>
+        <script defer src = "websiteScript.js"></script> <!--External Javascript link -->
+        <link rel="stylesheet" type ="text/css" href ="websiteStyle.css"> <!-- CSS stylesheet link-->    
+        
+        <header> <!-- Main header, will include animation-->
+                <div class = "logo">
+            <img src="Pictures2/Clone trooper logo.jpg" alt="" height = 65px width = 65px> <!--Adds a logo in the header  -->
+            <p><em>Levi's Lego Emporium</em><br><strong>|Home|</strong></p></p>
+           </div>
+           
+        </header>  
+        
+        <div class="sidebar"> <!-- My navigation bar-->
+        <a class="button" href="index.html"><strong>Home</strong></a>
+        <a class="button" href="Gallery.html"><strong>Gallery</strong></a>
+        <a class="button" href="Minifigures.html"><strong>Minifigures</strong></a>
+        <a class="button" href="Addys.html"><strong>Add Your Set</strong></a>
+        </div>
+        <div id = "paragraph">
+            <p>Welcome to Levi's Lego Emporium, <br>home of rare Starwars Lego sets and minifigures!</p> <!-- P element that runs under the nav bar -->
+           </div>
+        <div id="h3feat">
+        <h3><strong>Featured LEGO Sets</strong></h3>
+        </div>
+
+        <div class="slider">
+            <img id="slide" width="700" height="500"> <!-- Photo swap/changer with Javascript-->
+        </div>
+
+        <footer><strong>Consider submitting your own set <a href="Addys.html" >here</a></strong></footer> <!-- Footer-->
+        </body>
+    </html>
