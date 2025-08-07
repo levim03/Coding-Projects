@@ -13,6 +13,7 @@ A full-featured desktop application built in Java for small business inventory a
 - Item sales and price tracking
 - Donation tracking and reporting
 - ETL-style data handling for accurate inventory state
+- Utilizes a SQLite DB for a backend
 
 ---
 
