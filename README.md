@@ -6,7 +6,7 @@ Welcome! This repository includes a collection of coding projects I’ve develop
 
 ## 🔧 Projects Overview
 
-### 🧶 Capstone: Mama’s Piddlin’s Inventory System (Java)
+### 🧶 Capstone Group Project: Mama’s Piddlin’s Inventory System (Java)
 A full-featured desktop application built in Java for small business inventory and order tracking. Key functionalities include:
 - Material and pricing management
 - Time tracking for custom item creation (in minutes/hours)
