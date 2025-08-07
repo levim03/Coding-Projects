@@ -35,7 +35,7 @@ A themed informational website that provides various facts and media content abo
 ---
 
 ### 🎮 Valorant Loadout Picker (Java)
-A Java-based application to assist new Valorant players. It gathers user preferences and recommends:
+A Java-based application with a basic GUI to assist new Valorant players. It gathers user preferences and recommends:
 - Best agent based on playstyle
 - Ideal weapon selection
 - Suitable maps and game modes
