@@ -6,6 +6,16 @@ Welcome! This repository includes a collection of coding projects I’ve develop
 
 ## 🔧 Projects Overview
 
+### 🧶 Capstone: Mama’s Piddlin’s Inventory System (Java)
+A full-featured desktop application built in Java for small business inventory and order tracking. Key functionalities include:
+- Material and pricing management
+- Time tracking for custom item creation (in minutes/hours)
+- Item sales and price tracking
+- Donation tracking and reporting
+- ETL-style data handling for accurate inventory state
+
+---
+
 ### 🧱 LEGO Store Simulation (C++)
 A console-based, LEGO-like store simulation where users can browse and shop for virtual LEGO sets. This project focuses on:
 - Object-oriented design
@@ -33,12 +43,4 @@ A Java-based application to assist new Valorant players. It gathers user prefere
 
 ---
 
-### 🧶 Capstone: Mama’s Piddlin’s Inventory System (Java)
-A full-featured desktop application built in Java for small business inventory and order tracking. Key functionalities include:
-- Material and pricing management
-- Time tracking for custom item creation (in minutes/hours)
-- Item sales and price tracking
-- Donation tracking and reporting
-- ETL-style data handling for accurate inventory state
 
----
