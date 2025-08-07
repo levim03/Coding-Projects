@@ -1,6 +1,44 @@
-# Coding-Projects
-## This repo includes all previous projects I have coded in various languages
-#### I have a C++ based lego-like store where you can shop for lego sets
-#### I have a website based onstarwars-themed I built with various information
-#### I have a Java based project on a video game character, weapon, and map picker/maker for the game Valorant
-#### I have a Java based capstone project (Mama's Piddlin's) that is a fully funtioning application.  It is a inventory tracking system designed to manage materials, pricing, and time spent (in minutes or hours) on creating custom items. It will also include features for donation tracking, item sales, and price selling calculations.
+# 🧠 Coding Projects Repository
+
+Welcome! This repository includes a collection of coding projects I’ve developed using various languages such as C++, Java, HTML/CSS, and more. These projects showcase my skills in object-oriented programming, front-end development, data management, and custom application design.
+
+---
+
+## 🔧 Projects Overview
+
+### 🧱 LEGO Store Simulation (C++)
+A console-based, LEGO-like store simulation where users can browse and shop for virtual LEGO sets. This project focuses on:
+- Object-oriented design
+- Basic file I/O
+- Menu-driven interfaces
+- Inventory management logic
+
+---
+
+### 🌌 Lego Star Wars Info Website (HTML/CSS/JavaScript)
+A themed informational website that provides various facts and media content about the Star Wars universe. Key features:
+- Responsive design
+- Custom styling and layout
+- Organized content sections
+- Basic interactivity with JavaScript
+
+---
+
+### 🎮 Valorant Loadout Picker (Java)
+A Java-based application to assist new Valorant players. It gathers user preferences and recommends:
+- Best agent based on playstyle
+- Ideal weapon selection
+- Suitable maps and game modes
+- Designed to ease players into the game
+
+---
+
+### 🧶 Capstone: Mama’s Piddlin’s Inventory System (Java)
+A full-featured desktop application built in Java for small business inventory and order tracking. Key functionalities include:
+- Material and pricing management
+- Time tracking for custom item creation (in minutes/hours)
+- Item sales and price tracking
+- Donation tracking and reporting
+- ETL-style data handling for accurate inventory state
+
+---
