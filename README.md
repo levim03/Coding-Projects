@@ -1,4 +1,4 @@
-# 🧠 Coding Projects Repository
+#  Coding Projects Repository
 
 Welcome! This repository includes a collection of coding projects I’ve developed using various languages such as C++, Java, HTML/CSS, and more. These projects will be updated periodically.
 
