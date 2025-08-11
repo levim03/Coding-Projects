@@ -4,7 +4,7 @@ Welcome! This repository includes a collection of personal/group projects I’ve
 
 ---
 
-## 🔧 All Current Completed Projects
+## 🔧 All Current Completed Projects (More information inside project folders)
 
 
 ### 🧶 Capstone Group Project: Mama’s Piddlin’s Inventory System (Java)
